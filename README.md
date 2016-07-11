@@ -43,8 +43,8 @@ First, as root, we ensure pipsi is available in the SCL environment:
 
 We then terminate that subshell and create and switch to a demo user:
 
-   # adduser demo
-   # su demo
+    # adduser demo
+    # su demo
 
 As the demo user, we then use pipsi in the SCL to install a script to our
 home directory, and adjust the PATH in the subshell to let us find and run it:
